@@ -1,6 +1,31 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
-if true then return {} end
+if true then return {
+  --   {
+  --   "neovim/nvim-lspconfig",
+  --   ---@class PluginLspOpts
+  --   opts = {
+  --     ---@type lspconfig.options
+  --     servers = {
+  --       -- pyright will be automatically installed with mason and loaded with lspconfig
+  --       pyright = {},
+  --     },
+  --   },
+  -- },
+  -- { "f-person/auto-dark-mode.nvim" },
+  -- {
+  --   "rmagatti/auto-session",
+  --   lazy = false,
+  --   dependencies = {
+  --     "nvim-telescope/telescope.nvim", -- Only needed if you want to use sesssion lens
+  --   },
+  --   -- config = function()
+  --   -- require("auto-session").setup({
+  --   -- auto_session_suppress_dirs = { "~/", "~/Projects", "~/Downloads", "/" },
+  --   -- })
+  --   -- end,
+  -- },
+} end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
 --
